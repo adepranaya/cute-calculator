@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div id="calculator-container">
+            <div class="ear right-ear"></div>
+            <div class="ear left-ear"></div>
+            <table id="calculator" class="calculator">
+                <tr>
+                    <td colspan="4">
+                        <input
+                            id="result"
+                            class="result"
+                            type="text"
+                            value=""
+                            readonly
+                        />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="btn" type="button" value="C" />
+                    </td>
+                    <td colspan="3">
+                        <p class="merk">
+                            &copy; Cute Calculator, by: @adepranaya
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input class="btn" type="button" value="7" /></td>
+                    <td><input class="btn" type="button" value="8" /></td>
+                    <td><input class="btn" type="button" value="9" /></td>
+                    <td><input class="btn" type="button" value="/" /></td>
+                </tr>
+                <tr>
+                    <td><input class="btn" type="button" value="4" /></td>
+                    <td><input class="btn" type="button" value="5" /></td>
+                    <td><input class="btn" type="button" value="6" /></td>
+                    <td><input class="btn" type="button" value="*" /></td>
+                </tr>
+                <tr>
+                    <td><input class="btn" type="button" value="1" /></td>
+                    <td><input class="btn" type="button" value="2" /></td>
+                    <td><input class="btn" type="button" value="3" /></td>
+                    <td><input class="btn" type="button" value="-" /></td>
+                </tr>
+                <tr>
+                    <td><input class="btn" type="button" value="0" /></td>
+                    <td><input class="btn" type="button" value="." /></td>
+                    <td><input class="btn" type="button" value="=" /></td>
+                    <td><input class="btn" type="button" value="+" /></td>
+                </tr>
+            </table>
+        </div>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
